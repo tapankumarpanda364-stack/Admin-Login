@@ -1,15 +1,111 @@
-# My Website Starter
+# 🌐 ERP Application
 
-A simple static website starter built with HTML, CSS, and JavaScript.
+A modern and responsive **ERP (Enterprise Resource Planning)** web application built to simplify business management with a clean and user-friendly interface.
 
-## Files
+---
 
-- `index.html` — homepage layout and structure
-- `styles.css` — responsive styling and theme
-- `script.js` — smooth section scrolling behavior
+## 📸 Project Preview
 
-## Getting Started
+<p align="center">
+  <img src="./images/homepage.png" alt="ERP Application Homepage" width="100%">
+</p>
 
-1. Open `index.html` in your browser.
-2. Edit the content, headings, and sections to fit your website.
-3. Deploy on GitHub Pages, Netlify, Vercel, or any static file host.
+---
+
+## ✨ Features
+
+- 🔐 Secure Admin Login
+- 📱 Fully Responsive Design
+- 🎨 Modern User Interface
+- ⚡ Fast Performance
+- 📊 ERP Dashboard
+- 📂 Easy Navigation
+- 🌐 Cross-Browser Compatible
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- React.js
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+---
+
+## 📂 Folder Structure
+
+```text
+ERP-Application/
+│
+├── client/
+├── server/
+├── images/
+│   └── homepage.png
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/tapankumarpanda364-stack/ERP-Application.git
+```
+
+### Install Dependencies
+
+```bash
+cd client
+npm install
+
+cd ../server
+npm install
+```
+
+### Run the Project
+
+```bash
+# Frontend
+npm run dev
+
+# Backend
+npm run dev
+```
+
+---
+
+## 📷 Screenshot
+
+<p align="center">
+  <img src="./images/homepage.png" width="100%">
+</p>
+
+---
+
+## 👨‍💻 Developed By
+
+**Tapan Kumar Panda**
+
+---
+
+## 📧 Contact
+
+📩 **Email:** tapankumarpanda364@gmail.com
+
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub.
