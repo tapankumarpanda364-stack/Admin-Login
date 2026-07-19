@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BZ1IJv1KKw8Y5r0EJ0zoRxs7ZfL+15NY0hAOuZceVSBt4uxUtJKuV1WL+b7akJ8e" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">My Website</a>
+        <nav class="site-nav nav">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#features" class="nav-link">Features</a>
+          <a href="#admin" class="nav-link">Admin</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <a href="#admin" class="button nav-button btn btn-primary">Admin Login</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-content text-center">
+          <h1>Build something great.</h1>
+          <p>Welcome to your new website. Start editing this project to make it your own.</p>
+          <a href="#about" class="button">Learn More</a>
+        </div>
+      </section>
+
+      <section id="about" class="section-light">
+        <div class="container section-inner">
+          <h2>About the Website</h2>
+          <p>This starter website includes a responsive layout, modern typography, and a simple navigation bar.</p>
+        </div>
+      </section>
+
+      <section id="services" class="section-dark">
+        <div class="container section-grid">
+          <article class="card">
+            <h3>Design</h3>
+            <p>Create clean, user-friendly layouts that look great on every device.</p>
+          </article>
+          <article class="card">
+            <h3>Development</h3>
+            <p>Use HTML, CSS, and JavaScript to bring your ideas to life.</p>
+          </article>
+          <article class="card">
+            <h3>Launch</h3>
+            <p>Deploy your site quickly with GitHub Pages, Vercel, Netlify, or any static host.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section-light">
+        <div class="container section-grid">
+          <article class="card">
+            <h3>Fast Setup</h3>
+            <p>Ready-to-use sections and tools let you launch your website in minutes.</p>
+          </article>
+          <article class="card">
+            <h3>Secure Admin</h3>
+            <p>Built-in admin access keeps your content and settings under control.</p>
+          </article>
+          <article class="card">
+            <h3>Custom Growth</h3>
+            <p>Scale with easy edits, new pages, and a modern platform that grows with you.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="admin" class="section-dark">
+        <div class="container section-inner admin-section">
+          <div class="admin-intro">
+            <h2>Admin Login Portal</h2>
+            <p>Access your admin dashboard for content management, analytics, and quick site controls.</p>
+          </div>
+
+          <div class="admin-grid">
+            <aside class="card admin-panel">
+              <h3>Admin Hub</h3>
+              <p>Quick access to your most important admin controls and insights.</p>
+              <ul class="panel-list">
+                <li><strong>Latest update:</strong> Site maintenance schedule ready.</li>
+                <li><strong>Security:</strong> 2FA pending setup for admin users.</li>
+                <li><strong>Content:</strong> 3 draft posts awaiting review.</li>
+              </ul>
+              <div class="panel-actions">
+                <a href="#contact" class="button secondary-button">Edit Content</a>
+                <a href="#features" class="button secondary-button">View Analytics</a>
+              </div>
+            </aside>
+
+            <div class="card admin-card">
+              <h3>Sign in to your portal</h3>
+              <form id="admin-login-form">
+                <div class="form-group">
+                  <label for="admin-username">Username</label>
+                  <input type="text" id="admin-username" name="username" placeholder="admin" required />
+                </div>
+                <div class="form-group">
+                  <label for="admin-password">Password</label>
+                  <input type="password" id="admin-password" name="password" placeholder="Enter password" required />
+                </div>
+                <button type="submit" class="button">Login</button>
+                <p class="login-message" id="login-message"></p>
+              </form>
+            </div>
+
+            <div class="card dashboard-card hidden" id="admin-dashboard">
+              <h3>Admin Dashboard</h3>
+              <p>Good to see you! Here are the latest site statistics and actions.</p>
+              <div class="dashboard-grid">
+                <article class="dashboard-widget">
+                  <strong>32+</strong>
+                  <span>Published pages</span>
+                </article>
+                <article class="dashboard-widget">
+                  <strong>8</strong>
+                  <span>Pending updates</span>
+                </article>
+                <article class="dashboard-widget">
+                  <strong>4.8</strong>
+                  <span>Average user rating</span>
+                </article>
+              </div>
+              <button class="button secondary-button" id="logout-button">Logout</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-light">
+        <div class="container section-inner">
+          <h2>Contact</h2>
+          <p>Ready to get started? Edit the content and replace this text with your own information.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 My Website. Made with HTML, CSS, and JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-ZENF8h8Ss1d3ggUCuxzZYX5fKxSvBj6F1+EPTsO+G9oVV4llY9c7q6B9F7zA1p3y" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
