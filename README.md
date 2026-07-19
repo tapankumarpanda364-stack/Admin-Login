@@ -7,7 +7,7 @@ A modern and responsive **ERP (Enterprise Resource Planning)** web application b
 ## 📸 Project Preview
 
 <p align="center">
-  <img src="./images/homepage.png" alt="ERP Application Homepage" width="100%">
+  <img src="/Admin login.png" alt="ERP Application Homepage" width="100%">
 </p>
 
 ---
@@ -89,7 +89,7 @@ npm run dev
 ## 📷 Screenshot
 
 <p align="center">
-  <img src="./images/homepage.png" width="100%">
+  <img src="/Admin login.png" width="100%">
 </p>
 
 ---
